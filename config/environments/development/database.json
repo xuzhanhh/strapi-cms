@@ -4,15 +4,12 @@
     "default": {
       "connector": "bookshelf",
       "settings": {
-        "client": "postgres",
-        "host": "ec2-52-203-98-126.compute-1.amazonaws.com",
-        "port": "5432",
-        "database": "d5vtsq03bj13ic",
-        "username": "jsidzeiqzvfrnw",
-        "password": "ba63d9d548d537b51ed40e46de1caa797099a0cca9f4db0249553857453a1ede",
-        "ssl": true
+        "client": "sqlite",
+        "filename": ".tmp/data.db"
       },
-      "options": {}
+      "options": {
+        "useNullAsDefault": true
+      }
     }
   }
 }

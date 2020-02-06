@@ -4,12 +4,13 @@
     "default": {
       "connector": "bookshelf",
       "settings": {
-        "client": "sqlite",
-        "host": "${process.env.DATABASE_HOST || '127.0.0.1'}",
-        "port": "${process.env.DATABASE_PORT || 27017}",
-        "database": "${process.env.DATABASE_NAME || 'strapi'}",
-        "username": "${process.env.DATABASE_USERNAME || ''}",
-        "password": "${process.env.DATABASE_PASSWORD || ''}"
+        "client": "postgres",
+        "host": "ec2-54-197-34-207.compute-1.amazonaws.com",
+        "port": "5432",
+        "database": "d7u8h64aj1sorm",
+        "username": "dfcesgggpkafmp",
+        "password": "00d3d98a2976c9942578fddaadb7708e8325ee7e9fcb62fdf1fec2d46ca03956",
+        "ssl": true
       },
       "options": {}
     }
