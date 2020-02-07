@@ -5,11 +5,11 @@
       "connector": "bookshelf",
       "settings": {
         "client": "postgres",
-        "host": "ec2-54-197-34-207.compute-1.amazonaws.com",
+        "host": "ec2-52-73-247-67.compute-1.amazonaws.com",
         "port": "5432",
-        "database": "d7u8h64aj1sorm",
-        "username": "dfcesgggpkafmp",
-        "password": "00d3d98a2976c9942578fddaadb7708e8325ee7e9fcb62fdf1fec2d46ca03956",
+        "database": "d2qoh43tmugbs1",
+        "username": "sccuelnuphmggg",
+        "password": "a42c2fc67df58a3aa693917dc3c5bd00e2c6baf7ea45051d90572d49be601298",
         "ssl": true
       },
       "options": {}
