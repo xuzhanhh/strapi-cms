@@ -9,10 +9,11 @@
         "port": "5432",
         "database": "strapi",
         "username": "postgres",
-        "password": "kbcici3146",
-        "ssl": true
+        "password": "kbcici3146"
       },
-      "options": {}
+      "options": {
+        "ssl": false
+      }
     }
   }
 }
