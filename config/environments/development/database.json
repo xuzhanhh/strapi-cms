@@ -4,15 +4,11 @@
     "default": {
       "connector": "bookshelf",
       "settings": {
-        "client": "postgres",
-        "host": "strapi-database.c92qaqd4vxjh.ap-northeast-1.rds.amazonaws.com",
-        "port": "5432",
-        "database": "strapi",
-        "username": "postgres",
-        "password": "kbcici3146"
+        "client": "sqlite",
+        "filename": ".tmp/data.db"
       },
       "options": {
-        "ssl": false
+        "useNullAsDefault": true
       }
     }
   }

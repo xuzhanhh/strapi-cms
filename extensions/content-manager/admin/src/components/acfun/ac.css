@@ -1,6 +1,11 @@
 .ac:hover {
   border: 2px solid #bdeefe
 }
+.ac {
+  background-size: 100% 87%;
+  background-position: 5px;
+  padding: 5px;
+}
 
 .ac-01 {
     background-image: url('./01.png');

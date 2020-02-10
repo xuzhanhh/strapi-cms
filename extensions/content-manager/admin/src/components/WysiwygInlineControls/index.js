@@ -25,7 +25,7 @@ class ACButton extends React.Component {
 
   render() {
     return (
-      <Popover style={{ zIndex: 9999 }} overlayStyle={{ zIndex: 9999 }} content={<div style={{ display: 'flex', flexWrap: 'wrap', overflow: 'scroll', width: 600, height: 500 }}>
+      <Popover style={{ zIndex: 99999999 }} overlayStyle={{ zIndex: 99999999 }} content={<div style={{ display: 'flex', flexWrap: 'wrap', overflow: 'scroll', width: 550, height: 500 }}>
         {name.map(icon => <div onClick={
           () => {
             this.props.handlers[this.props.handler](`<img src="${ACImageMap[icon]}" />`, this.props.style);
