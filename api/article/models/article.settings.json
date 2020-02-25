@@ -11,7 +11,8 @@
   "attributes": {
     "title": {
       "type": "string",
-      "required": true
+      "required": true,
+      "unique": true
     },
     "content": {
       "type": "richtext",
@@ -24,9 +25,9 @@
       "required": true
     },
     "author": {
-      "via": "articles",
       "plugin": "users-permissions",
-      "model": "user"
+      "model": "user",
+      "via": "articles"
     },
     "description": {
       "type": "string",
