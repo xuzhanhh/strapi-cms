@@ -41,6 +41,9 @@
       "type": "decimal",
       "max": 10,
       "min": 0
+    },
+    "score_desc": {
+      "type": "string"
     }
   }
 }
