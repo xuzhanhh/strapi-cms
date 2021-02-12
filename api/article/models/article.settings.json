@@ -36,6 +36,11 @@
     "section": {
       "model": "section",
       "via": "articles"
+    },
+    "score": {
+      "type": "decimal",
+      "max": 10,
+      "min": 0
     }
   }
 }
